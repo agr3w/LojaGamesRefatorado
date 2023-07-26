@@ -1,0 +1,88 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ccc;
+}
+
+.footerLinks a {
+  display: flex;
+  margin-bottom: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.footerLinks a:hover {
+  color: #888;
+}
+
+li {
+  display: flex;
+}
+
+.storeAddress {
+  margin-top: 20px;
+  color: #777;
+}
+
+.footerRight {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.trustSeals img {
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  margin-right: 10px;
+}
+
+.socialIcon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin: 30px 10px;
+  text-decoration: none;
+}
+
+.socialIcon svg {
+  width: 30px;
+  height: 30px;
+  color: #808080;
+  border-radius: 30%;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #ccc;
+  width: 1px;
+  height: auto;
+  margin: 0 20px;
+}
+
+.rights {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #888;
+}
+
+@media screen and (max-width: 1200px) {
+  .footerLeft:nth-child(2),
+  .footerLeft:nth-child(3) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .trustSeals img {
+    width: 90px;
+    height: 90px;
+  }
+}

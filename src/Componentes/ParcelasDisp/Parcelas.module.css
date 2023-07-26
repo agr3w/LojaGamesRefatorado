@@ -1,0 +1,9 @@
+.pagamento_parcelas {
+    display: flex;
+    flex-direction: column;
+}
+
+.pagamento_parcelas h2 {    
+    padding: 0 10px 10px 10px;
+    font-weight: 600;
+}

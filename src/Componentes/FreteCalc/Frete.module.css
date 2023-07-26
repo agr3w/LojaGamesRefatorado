@@ -1,0 +1,43 @@
+/* freteCalc.module.css */
+
+.freteCalc {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+
+}
+
+.freteCalc h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.freteCalc .form {
+  display: flex;
+  align-items: center;
+}
+
+.freteCalc input {
+  flex: 1;
+  padding: 5px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.freteCalc button {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.freteCalc p {
+  font-size: 16px;
+  margin-top: 10px;
+}

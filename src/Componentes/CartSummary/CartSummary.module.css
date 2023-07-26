@@ -1,0 +1,50 @@
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 400px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.card .button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+.itemList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 8px 0;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.total {
+  padding-top: 15px;
+}

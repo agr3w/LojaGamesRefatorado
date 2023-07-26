@@ -1,0 +1,19 @@
+/* breadcrumbs.module.css */
+.container {
+    position: absolute;
+    top: 400px;
+    left: 431px;
+  }
+  
+  .listinha {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .container.productPage {
+    display: block;
+  }
+  

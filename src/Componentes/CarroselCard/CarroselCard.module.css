@@ -1,0 +1,83 @@
+/* CarroselCard.module.css */
+
+.carousel {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 250px;
+}
+
+.swipper {
+  width: 50%;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.cardImage {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.cardTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.PriceDetail {
+  margin-top: 8px;
+}
+
+.cardPrice {
+  font-size: 22px;
+  display: flex;
+  justify-content: start;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.cardInstallment {
+  font-size: 14px;
+  color: #666;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

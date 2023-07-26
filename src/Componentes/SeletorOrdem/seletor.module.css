@@ -1,0 +1,16 @@
+.selectorContainer {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  margin-left: 700px;
+}
+
+.selector {
+  margin-left: 8px;
+}
+
+@media screen and (max-width: 810px) {
+  .selectorContainer {
+    margin-left: 0;
+  }
+}

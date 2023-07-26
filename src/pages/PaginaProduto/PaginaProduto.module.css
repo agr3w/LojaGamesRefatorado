@@ -1,0 +1,141 @@
+/* PaginaProduto.module.css */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.ContainerProducts {
+  display: flex;
+  max-width: 1000px;
+  align-items: center;
+  gap: 20px;
+}
+
+.product {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 35px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.productDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productDetails img {
+  max-width: 100%;
+  width: 200px;
+}
+
+.productDetails p {
+  margin: 5px 0;
+}
+
+.productDetailsSpan  {
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+
+.productDetailsLeft {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.productDetailsLeft p {
+  font-size: 20px;
+}
+.productDetailsLeft button {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.productDetailsLeft button:hover {
+  background-color: #0056b3;
+}
+
+.MetodoPagamento {
+  display: flex;
+  justify-content: center;
+}
+
+.pagamento {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border: 1px grey solid;
+  border-collapse: collapse;
+  margin: 20px;
+}
+
+.pagamento span {
+  display: table-cell;
+  padding: 15px;
+}
+
+.pagamentoCredito {
+  border-bottom: 2px solid grey;
+}
+
+.pagamentoCredito span,
+.boleto :first-child {
+  font-weight: bold;
+}
+
+.ParcelasDisponiveis span {
+  border-top: 1px solid #ccc;
+}
+
+.parcelasDisponiveis,
+.boleto {
+  border-top: 2px solid grey;
+}
+
+.boleto {
+  display: flex;
+  justify-content: space-between;
+}
+
+.frete {
+  display: flex;
+  justify-content: center;
+}
+
+/* Media Query para mobile e tablets */
+@media screen and (max-width: 768px) {
+  .ContainerProducts {
+    flex-direction: column;
+  }
+
+  .product {
+    padding: 20px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .productDetailsLeft button {
+    font-size: 14px;
+  }
+}
