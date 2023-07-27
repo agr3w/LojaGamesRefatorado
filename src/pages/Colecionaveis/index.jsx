@@ -20,7 +20,7 @@ export default function ColecionaveisPage() {
       <Categorias />
       <ItensCard
         jogos={ColecionaveisArray}
-        imagemDiretorio="/imgs/produtos"
+        imagemDiretorio="/imgs/Produtos"
         secaoAtual="colecionaveis"
       />
       <Footer />
