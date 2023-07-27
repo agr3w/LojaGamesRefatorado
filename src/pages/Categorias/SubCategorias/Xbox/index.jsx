@@ -42,7 +42,7 @@ export default function RenderXbox() {
           <Categorias categorias={categoriasItens} />
           <ItensCard
             jogos={subcategoriaData.jogos}
-            imagemDiretorio="/imgs/Produtos"
+            imagemDiretorio="/imgs/produtos"
             secaoAtual={subcategoriaData.title}
           />
         </>
