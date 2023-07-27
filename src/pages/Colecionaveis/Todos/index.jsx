@@ -48,7 +48,7 @@ export default function RenderColecao() {
           <Categorias categorias={categoriasItens} />
           <ItensCard
             jogos={subcategoriaData.jogos}
-            imagemDiretorio="/imgs/produtos"
+            imagemDiretorio="/imgs/Produtos"
             secaoAtual={subcategoriaData.title}
           />
           <Footer />
