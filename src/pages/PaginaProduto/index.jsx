@@ -11,23 +11,23 @@ import { Produtos } from "../../Arrays/ArrayProdutos";
 export const plataformas = {
   Nintendo: {
     lista: Produtos,
-    imgDiretorio: "/imgs/Produtos/",
+    imgDiretorio: "/imgs/produtos/",
   },
   Playstation: {
     lista: Produtos,
-    imgDiretorio: "/imgs/Produtos/",
+    imgDiretorio: "/imgs/produtos/",
   },
   Xbox: {
     lista: Produtos,
-    imgDiretorio: "/imgs/Produtos/",
+    imgDiretorio: "/imgs/produtos/",
   },
   Colecionador: {
     lista: Produtos,
-    imgDiretorio: "/imgs/Produtos/",
+    imgDiretorio: "/imgs/produtos/",
   },
   GiftCards: {
     lista: Produtos,
-    imgDiretorio: "/imgs/Produtos/",
+    imgDiretorio: "/imgs/produtos/",
   },};
 
 export default function PaginaProduto() {
