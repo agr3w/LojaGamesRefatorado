@@ -51,3 +51,22 @@
 .button:hover {
   background-color: #c0392b;
 }
+
+@media screen and (max-width: 768px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .card img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .info {
+    padding: 10px;
+  }
+
+  .button {
+    margin-top: 10px;
+  }
+}

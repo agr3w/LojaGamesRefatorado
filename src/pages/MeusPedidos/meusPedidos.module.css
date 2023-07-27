@@ -1,18 +1,32 @@
-/* meusPedidos.module.css */
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.emptyMessage {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+/* Media Query para dispositivos móveis */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
   }
-  
+
   .title {
-    text-align: center;
-    margin-bottom: 20px;
+    font-size: 24px;
   }
-  
+
   .emptyMessage {
-    text-align: center;
-    font-size: 20px;
-    margin-top: 50px;
+    font-size: 16px;
+    margin-top: 30px;
   }
-  
+}

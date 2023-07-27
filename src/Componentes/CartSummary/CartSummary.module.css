@@ -48,3 +48,9 @@
 .total {
   padding-top: 15px;
 }
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}

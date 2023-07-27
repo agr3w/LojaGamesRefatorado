@@ -1,46 +1,72 @@
-/* OrdemConfirmation.module.css */
-
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px auto;
-    max-width: 800px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.subtotal {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.summaryContainer h3 {
+  padding-top: 30px;
+  font-size: 26px;
+}
+
+.confirmButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.confirmButton:hover {
+  background-color: #0056b3;
+}
+
+/* Media Query para dispositivos móveis */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
   }
-  
+
   .header {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
   }
-  
+
   .subtotal {
-    font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
   }
 
   .summaryContainer h3 {
-    padding-top: 30px;
-    font-size: 26px;
+    padding-top: 20px;
+    font-size: 22px;
   }
-  
+
   .confirmButton {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease-in-out;
+    padding: 8px 16px;
+    margin-top: 5px;
+    font-size: 16px;
   }
-  
-  .confirmButton:hover {
-    background-color: #0056b3;
-  }
-  
+}
