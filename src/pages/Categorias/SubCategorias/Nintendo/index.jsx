@@ -72,7 +72,7 @@ export default function RenderNintendo() {
           <Categorias categorias={categoriasItens} />
           <ItensCard
             jogos={subcategoriaData.jogos}
-            imagemDiretorio="/imgs/produtos"
+            imagemDiretorio="/imgs/Produtos"
             secaoAtual={subcategoriaData.title}
           />
         </>
