@@ -56,7 +56,7 @@ export const NintendoCards = [
     },
     {
       id: 5,
-      nome: "Gift Card Nintendo online 3 Meses",
+      nome: "Gift Card Nintendo Online 3 Meses",
       valor: 90,
       plataforma: "GiftCards",
       console: "Nintendo Switch",
