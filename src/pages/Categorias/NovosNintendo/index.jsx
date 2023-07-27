@@ -23,7 +23,7 @@ export default function Novos() {
       <Categoria categorias={categoriasItens} />
       <ItensCard
         jogos={ItensNintendo}
-        imagemDiretorio="/imgs/produtos"
+        imagemDiretorio="/imgs/Produtos"
         secaoAtual="Nintendo"
       />
       <Footer />
